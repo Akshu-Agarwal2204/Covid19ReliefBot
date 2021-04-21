@@ -7,7 +7,7 @@ The Bot is completely Open Source and you can download the Source Code and use i
 
 ## How to Setup the Bot
 * Download the Source Code.
-* Make Sure you have Python Installed on your Device.
+* Make Sure you have Python (3.7 or Newer) Installed on your Device. If not, Install it from the [Official Python Website](https://www.python.org/downloads/).
 * Make a Bot Application. (More Info at this [Website](https://discordpy.readthedocs.io/en/stable/discord.html))
 * In the Credentials file ([credentials.json](./bot/data/credentials.json)), fill in the required credentials.
   * In `token`, fill in the Bot's Token you made in Step 3rd.
@@ -19,4 +19,8 @@ The Bot is completely Open Source and you can download the Source Code and use i
     "prefix": "!"
 }
 ```
-* Run the [launcher.py](./launcher.py) File and your Bot will get Started!
+* Run the [launcher.py](./launcher.py) File.
+
+
+* The Bot should install all Dependencies by Itself if all the Python and PIP Settings are configured Properly on your Device.
+* In case some error occurs, install the dependencies listed in the [requirements.txt](./requirements.txt) file manually and then go to [launcher.py](./launcher.py) File and comment out 2nd (`os.system("pip3 install -r requirements.txt")`) line and again run the File.
