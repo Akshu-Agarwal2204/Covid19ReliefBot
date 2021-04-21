@@ -1,4 +1,4 @@
-# Covid19ReliefDCBot
+# Covid19ReliefBot
 A Bot for getting Information on Relief Facilities for Covid 19 Patients and Easily Find Services in Emergency.
 
 The Bot is completely Open Source and you can download the Source Code and use it for fair purposes.
