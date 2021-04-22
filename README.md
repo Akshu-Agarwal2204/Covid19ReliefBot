@@ -30,3 +30,11 @@ In the Hard Times, You should help people whosoever is in the Need of. Unavailab
 I added some resources I can find in the file [resources.txt](./resources.txt) and I'll update them as I will find more.
 
 These are not used in the Bot, but for general Help. You can share them with the needy and this may help them.
+
+## Note:
+This Page will get Updated 3-4 times Every Day as I find more Links for getting info on availability of Necessary Resources.
+If you're self Hosting it, I'd recommend you to check the Page and Update your Code too.
+
+Plus, If you can help in any way, please help the needy people. Your small help can save someone's Life.
+There are definitely people around you who are in need of blood, plasma, beds, etc. If you can provide any of these,
+go ahead! Your small help can save someone's Life!
