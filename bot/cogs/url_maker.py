@@ -69,7 +69,16 @@ class URLMaker(commands.Cog):
                 INCLUDED_WORDS = ""
 
             TWITTER_URL_HEAD = f"https://www.twitter.com/search?q={LOCATION}+{INCLUDED_WORDS}%28{REQUIREMENTS}%29{OMITTED_WORDS}&f=live"
-            await msg.edit(content=f"Here's the URL: <{TWITTER_URL_HEAD}>\n\n**Tips:**\n1). **Do NOT make advanced payments unless you are 100% sure about their authenticity.**\n2). Check for replies under the tweets.\n3). Make sure search results are sorted by `Latest`.")
+
+            message = f"""Here's the URL: <{TWITTER_URL_HEAD}>
+            This may also Help you (may not work after some Time): http://bit.ly/All_India_COVID19_HELPLINE
+            
+            **Tips:**
+            1). **Do NOT make advanced payments unless you are 100% sure about their authenticity.**
+            2). Check for replies under the tweets.
+            3). Make sure search results are sorted by `Latest`."""
+
+            await msg.edit(content=message)
 
         except TimeoutError:
             await msg.edit(content="You Timed Out Responding... Please Try Again!")
