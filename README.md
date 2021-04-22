@@ -24,3 +24,9 @@ The Bot is completely Open Source and you can download the Source Code and use i
 
 * The Bot should install all Dependencies by Itself if all the Python and PIP Settings are configured Properly on your Device.
 * In case some error occurs, install the dependencies listed in the [requirements.txt](./requirements.txt) file manually and then go to [launcher.py](./launcher.py) File and comment out 2nd (`os.system("pip3 install -r requirements.txt")`) line and again run the File.
+
+## Some Resouces
+In the Hard Times, You should help people whosoever is in the Need of. Unavailability of Resources is getting a Big Issue.
+I added some resources I can find in the file [resources.txt](./resources.txt) and I'll update them as I will find more.
+
+These are not used in the Bot, but for general Help. You can share them with the needy and this may help them.

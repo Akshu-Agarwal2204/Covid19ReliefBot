@@ -5,7 +5,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot as BotBase
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-INTENTS = Intents.all()
+INTENTS = Intents.default()
 COGS = list()
 
 for files in os.listdir('./bot/cogs'):
